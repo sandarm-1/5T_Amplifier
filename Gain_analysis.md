@@ -53,6 +53,8 @@ We note the TRICK is to put a “TERMINATION voltage” on the output, because w
 
 ![image](https://user-images.githubusercontent.com/95447782/168827229-0ad39f35-224a-4234-bedb-515887ca673e.png)
 
+## Gain
+
 ### Transconductance Gm
 Summary from this: if we put a VOLTAGE SOURCE on the output of this circuit, then EVEN THOUGH THE CIRCUIT IS ASSYMMETRICAL, now the 2 load resistances are SO SMALL that we can SAFELY ASSUME that the TAIL NODE voltage Vx=0.
 
@@ -106,11 +108,17 @@ Overall, “i_n” plus “i_p” is the total of itest, so we can now do vtest/
 
 Overall **we get the same Rout result as before (with the “not so thorough” approach) but this time it’s with a thorough analysis.**
 
-With this we have the overall Gm and overall Rout of the transconductor. So this is the overall opamp that we can make with this circuit.
+### Gain = Gm·Rout
+
+With this we have the overall Gm and overall Rout of the transconductor.
+
+So now we can calculate the overall Gain Ao=Gm·Rout. This is the overall opamp that we can make with this circuit.
 
 
 ![image](https://user-images.githubusercontent.com/95447782/168847704-933a5462-92eb-46e6-9042-269df413213a.png)
 
+
+And that's the GAIN of the single stage amplifier.
 
 **This is the 5T-OTA or DIFF PAIR WITH CURRENT MIRROR LOAD, or BASIC SINGLE STAGE AMPLIFIER.**
     
@@ -122,6 +130,9 @@ With this we have the overall Gm and overall Rout of the transconductor. So this
 
 * It’s a single pole circuit.
 
+## Frequency response
+
+### If we neglect parasitics (just load cap) it's a single pole circuit
 
 When we say it’s a single pole circuit, we mean this:
 
@@ -148,6 +159,7 @@ And that's the frequency response of the trasnsconductor (diff pair with current
 
 The next step is just do the same thing, but including PARASITIC CAPs.
 
+### Frequency response with parasitic caps, 2-pole system
 
 These are the parasitic caps:
 
