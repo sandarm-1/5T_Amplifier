@@ -50,7 +50,7 @@ We note the TRICK is to put a “TERMINATION voltage” on the output, because w
 
 ![image](https://user-images.githubusercontent.com/95447782/168827229-0ad39f35-224a-4234-bedb-515887ca673e.png)
 
-### Gain Gm
+### Transconductance Gm
 Summary from this: if we put a VOLTAGE SOURCE on the output of this circuit, then EVEN THOUGH THE CIRCUIT IS ASSYMMETRICAL, now the 2 load resistances are SO SMALL that we can SAFELY ASSUME that the TAIL NODE voltage Vx=0.
 
 And that makes the analysis MUCH EASIER.
