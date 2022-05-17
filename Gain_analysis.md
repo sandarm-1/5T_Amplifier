@@ -15,13 +15,16 @@ BUT if the rds of the diff pair devices is not infinite (as in reality) then IN 
 ![image](https://user-images.githubusercontent.com/95447782/168823161-06705aea-61b4-4203-b4fa-5932820b76a3.png)
 
 Overall, Vx will be ZERO if:
+
     • If R1=R2 (symmetrical loads), Vx=0
+    
     • If R1 different than R2 BUT gds1=0 (infinite rds of diff pair devices), Vx=0 also
+    
     • If rds1 MUCH LARGER than R1 and R2, Vx=0 also.
 
     • BUT the problem comes if rds of diff pair becomes TOO SMALL or of R1 & R2 become TOO BIG. If R1 & R2 are COMPARABLE to rds of diff pair, then Vx is NOT 0 (and the analysis becomes invalid and further results down the line will not be what you expect).
 
-So we need to keep rds of diff pair RELATIVELY LARGE, or don’t go crazy making R1 and R2 excessively large.
+So we need to keep rds of diff pair RELATIVELY LARGE, or don’t make R1 and R2 excessively large, don´t allow them to be COMPARABLE to diff pair rds's.
 
 ## Differential Pair with Current Mirror load
 Now the Diff Pair with a CURRENT MIRROR LOAD.
