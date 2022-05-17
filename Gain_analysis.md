@@ -50,7 +50,7 @@ We note the TRICK is to put a “TERMINATION voltage” on the output, because w
 
 ![image](https://user-images.githubusercontent.com/95447782/168827229-0ad39f35-224a-4234-bedb-515887ca673e.png)
 
-
+### Gain Gm
 Summary from this: if we put a VOLTAGE SOURCE on the output of this circuit, then EVEN THOUGH THE CIRCUIT IS ASSYMMETRICAL, now the 2 load resistances are SO SMALL that we can SAFELY ASSUME that the TAIL NODE voltage Vx=0.
 
 And that makes the analysis MUCH EASIER.
@@ -64,13 +64,23 @@ We could say one transistor is a SINGLE ENDED transconductor and the 5T-OTA is a
 
 The next step is to calculate the overall output resistance of the diff pair with current mirror load.
 
-
+### Rout
 Now that we know the Gm of the transconductor, we need to calculate the Rout of it so that we can get its DC gain as Av=Gm·Rout.
 
 Quite an important quantity because it determines the steady state error.
 
 This is the Rout calculated by me, using an “approximation”. It happens to give the correct result for Rout, but to be “accurate” you should know that the “correct” analysis is more complicated than this (what we do is a bit more complicated than just replacing M3 by 1/gm3 and M4 by 1/gds3).
 
+
+![image](https://user-images.githubusercontent.com/95447782/168829576-52fa048a-3712-43c7-8324-057394b5b1ab.png)
+
+
+Actually you know what… Let’s to do the “correct / complete” analysis.
+First thing is we look at M1 and M3 and we note that, if the gate of M1 is at fixed Vbias, looking from the bottom up, this is a common gate amp (M1) loaded by a diode connected M3 which looks like a 1/gm3.
+
+So M1 and M3 in combination, looking upwards from Vx up, we see an Rin of around 1/gm1.
+
+We do this, so that we can use this as the load for M2.
 
 
 
