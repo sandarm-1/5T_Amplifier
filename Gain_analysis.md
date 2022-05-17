@@ -86,6 +86,25 @@ So M1 and M3 in combination, looking upwards from Vx up, we see an Rin of around
 We do this, so that we can use this as the load for M2.
 
 
+![image](https://user-images.githubusercontent.com/95447782/168844642-894a980e-b6ff-46d7-a46f-ce3c5dc18db2.png)
+
+
+With that, we can calculate the current “i_n” flowing into M2. And we get this:
+
+![image](https://user-images.githubusercontent.com/95447782/168845448-559c014c-3aef-4b72-9e32-e5613a15ab79.png)
+
+
+Now do the same for “i_p” flowing upwards into M4. But here it’s not just the “vtest/itest” that flows into M4, but also the “i_n” that goes down through M2 comes back up into M3 and gets mirrored into M4, so that also contributes to “i_p”.
+
+![image](https://user-images.githubusercontent.com/95447782/168846900-0820d511-843d-4a20-8129-ac8bcb005793.png)
+
+
+Overall, “i_n” plus “i_p” is the total of itest, so we can now do vtest/itest for the whole circuit Rout.
+
+![image](https://user-images.githubusercontent.com/95447782/168846680-a674b786-788f-4ebb-b514-6d3a4247c951.png)
+
+
+
 
 
 
