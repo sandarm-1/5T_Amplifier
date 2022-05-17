@@ -72,7 +72,7 @@ Quite an important quantity because it determines the steady state error.
 This is the Rout calculated by me, using an “approximation”. It happens to give the correct result for Rout, but to be “accurate” you should know that the “correct” analysis is more complicated than this (what we do is a bit more complicated than just replacing M3 by 1/gm3 and M4 by 1/gds3).
 
 
-![image](https://user-images.githubusercontent.com/95447782/168829576-52fa048a-3712-43c7-8324-057394b5b1ab.png)
+![image](https://user-images.githubusercontent.com/95447782/168830283-688d3238-1c43-42ae-82ff-630a04844c77.png)
 
 
 Actually you know what… Let’s to do the “correct / complete” analysis.
