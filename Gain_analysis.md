@@ -185,7 +185,7 @@ Now if we drive the load cap with this, we have the full OTA circuit:
 ![image](https://user-images.githubusercontent.com/95447782/168854820-e56369b0-94f4-4fa4-9589-b8b218611d9c.png)
 
 
-And this is the plot of that frequency response (without any feedback).
+And this is the plot of that frequency response (without any feedback, i.e. open loop).
 
 This is the 2-pole system that we mentioned, once we include not only the load cap but also the parasitic caps, we get the 2 poles.
 
@@ -194,7 +194,7 @@ This is the 2-pole system that we mentioned, once we include not only the load c
 
 **The dominant pole (lowest frequency) of the whole op-amp will be determined by the load cap C.** Since that’s the biggest cap, it will create the lowest frequency pole.
 
-**And that's the frequency response of the basic Single Stage amplifier (differential pair with current mirror load, 5T op amp), including parasitics and load cap.**
+**And that's the frequency response of the basic Single Stage amplifier (differential pair with current mirror load, 5T op amp), including parasitics and load cap, without feedback i.e. open loop.**
 
 
 ## Offset
