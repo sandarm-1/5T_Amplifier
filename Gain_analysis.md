@@ -175,6 +175,19 @@ Now if we drive the load cap with this, we have the full OTA circuit:
 
 And this is the plot of that frequency response (without any feedback):
 
+![image](https://user-images.githubusercontent.com/95447782/168857113-2d292da7-63db-4655-a7ad-7d26ff48c10d.png)
+
+
+**The dominant pole (lowest frequency) of the whole op-amp will be determined by the load cap C.** Since that’s the biggest cap, it will create the lowest frequency pole.
+
+**And that's the frequency response of the basic Single Stage amplifier (differential pair with current mirror load, 5T op amp), including parasitics and load cap.**
+
+
+## Offset
+
+Next:
+* [Offset](/Offset_analysis.md)
+
 
 
 
