@@ -185,7 +185,9 @@ Now if we drive the load cap with this, we have the full OTA circuit:
 ![image](https://user-images.githubusercontent.com/95447782/168854820-e56369b0-94f4-4fa4-9589-b8b218611d9c.png)
 
 
-And this is the plot of that frequency response (without any feedback):
+And this is the plot of that frequency response (without any feedback).
+
+This is the 2-pole system that we mentioned, once we include not only the load cap but also the parasitic caps, we get the 2 poles.
 
 ![image](https://user-images.githubusercontent.com/95447782/168857113-2d292da7-63db-4655-a7ad-7d26ff48c10d.png)
 
