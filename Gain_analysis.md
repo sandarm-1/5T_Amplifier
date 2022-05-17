@@ -48,3 +48,31 @@ BUT we apply a TRICK. (This may seem COUNTER INTUITIVE at first.)
 
 We note the TRICK is to put a “TERMINATION voltage” on the output, because when doing that the output resistance seen from vout upwards will be the parallel combination of the Rout of M4 (1/gds3) and that of the voltage source, and that of the voltage source is ZERO, so the parallel combination is also ZERO, and now “MAGIC!” we now have VERY SMALL Routs both on the left side (M3) and the right side (M4) because now the right side has ZERO Rout. And thus NOW we have both load resistances SMALLER than rds of the diff pair and hence we are in the case where we can say that Vx=0. And hence we are happy in our magic ideal world!
 
+![image](https://user-images.githubusercontent.com/95447782/168827229-0ad39f35-224a-4234-bedb-515887ca673e.png)
+
+
+Summary from this: if we put a VOLTAGE SOURCE on the output of this circuit, then EVEN THOUGH THE CIRCUIT IS ASSYMMETRICAL, now the 2 load resistances are SO SMALL that we can SAFELY ASSUME that the TAIL NODE voltage Vx=0.
+
+And that makes the analysis MUCH EASIER.
+
+![image](https://user-images.githubusercontent.com/95447782/168828099-0820a728-27d3-470c-9d4b-a21bbcde5b0f.png)
+
+
+Here we have proved that **the DIFF PAIR WITH CURRENT MIRROR LOAD (5T-OTA) IS A TRANSCONDUCTOR.** In particular, it’s a transconductor with overall transconductance Gm=gm1 where gm1 is the gm of any of the diff pair devices.
+
+We could say one transistor is a SINGLE ENDED transconductor and the 5T-OTA is a DIFFERENTIAL INPUT, SINGLE ENDED OUTPUT transconductor.
+
+The next step is to calculate the overall output resistance of the diff pair with current mirror load.
+
+
+Now that we know the Gm of the transconductor, we need to calculate the Rout of it so that we can get its DC gain as Av=Gm·Rout.
+
+Quite an important quantity because it determines the steady state error.
+
+This is the Rout calculated by me, using an “approximation”. It happens to give the correct result for Rout, but to be “accurate” you should know that the “correct” analysis is more complicated than this (what we do is a bit more complicated than just replacing M3 by 1/gm3 and M4 by 1/gds3).
+
+
+
+
+
+
