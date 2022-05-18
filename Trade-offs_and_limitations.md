@@ -29,5 +29,7 @@ Single stage op amp has some limitations:
 * The **overall DC gain that we can get from this is quite limited**, it’s not huge. It’s gm1/(gds1+gds3) and that is in the order of magnitud of the gain of a single transistor (single transistor gain Av=gm·rds).
 * To increase the DC gain of this amp, you would have to increase the rds1 & rds3. We know rds of transistors depends on channel length, longer device is more resistive. But if we increase L of devices, we will also have to increase W proportionally to keep W/L, since we don’t want to change gm1. So overall we will end up increasing the overall size of transistors which will increase parasitic caps and will reduce speed. Even if we don’t care much about speed, and we want to go down this route of increasing L to get some extra DC gain, we cannot increase L by 100 times, so it will be quite limited anyway.
 * The way to increase DC gain from this circuit is to use cascodes, both on input pair and on loads, and that leads to **the TELESCOPIC amplifier** and the **FOLDED CASCODE amplifier**.
+* Even with cascodes, you will increase the intrinsic Rout of the amplifier but you will still be unable to drive resistive loads, because again if you put a resistor on the output, it will appear in parallel with the Rout of the amp, lowering it, again dropping DC gain.
+* To avoid that, you would **use a second stage** like a common source amp, Class A, Class B etc so you buffer the first stage and you get the current drive capability at the output.
 
 
