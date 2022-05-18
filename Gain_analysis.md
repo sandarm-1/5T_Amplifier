@@ -136,7 +136,7 @@ And that's the GAIN of the single stage amplifier.
 ## Frequency response
 
 Next:
-* [Frequency response](/Freq_resp_analysis.md)
+* [Frequency response](/Freq_Resp_analysis.md)
 
 
 
