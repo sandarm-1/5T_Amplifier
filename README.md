@@ -24,6 +24,13 @@ Single Stage Amplifier analysis (5T op-amp)
 [Design trade-offs and limitations](/Trade-offs_and_limitations.md)
 
 
+## See also: 2 stage Miller compensated amplifier
+
+This is on a separate repo.
+
+[2-stage Miller compensated op amp](https://github.com/powergainer/2-stage_Miller_compensated_opamp)
+
+
 References
 ---
 [1] Design of Analog CMOS Integrated Circuits (Behzad Razavi), McGraw-Hill, 2001.
