@@ -65,6 +65,6 @@ Next is Slew Rate.
 
 Next:
 
-* [Slew Rate](Slew_Rate_analysis.md)
+* [Slew Rate](/Slew_Rate_analysis.md)
 
 
