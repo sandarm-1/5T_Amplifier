@@ -128,7 +128,7 @@ And that's the GAIN of the single stage amplifier.
 
 * But it’s the starting point for all other amplifiers (telescopic, folded cascode…)
 
-* It’s a single pole circuit.
+* It’s a single pole circuit (neglecting parasitics).
 
 
 
