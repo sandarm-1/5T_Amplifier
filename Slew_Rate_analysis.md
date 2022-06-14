@@ -13,6 +13,11 @@ That´s the Slew Rate.
 
 For this op amp, both the rising and falling Slew Rates are the same and equal to Io/C.
 
+An extra note on Slew Rate:
+
+![image](https://user-images.githubusercontent.com/95447782/173550213-e67fa593-6931-4db6-bf5d-5d0c131f021c.png)
+
+
 
 Next, design trade-offs and limitations of this topology.
 
