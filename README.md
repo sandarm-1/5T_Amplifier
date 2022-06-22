@@ -35,4 +35,5 @@ References
 ---
 [1] Design of Analog CMOS Integrated Circuits (Behzad Razavi), McGraw-Hill, 2001.
 
+[[2]](https://nptel.ac.in/courses/117106030) Analog IC Design, IIT Madras, Dr. Nagendra Krishnapura, NPTEL.
 
